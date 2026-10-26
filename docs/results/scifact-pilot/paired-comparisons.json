@@ -1,0 +1,15 @@
+[
+  {
+    "candidate": "ae-128d-seed42",
+    "reference": "pca-128d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.004503865503256168,
+    "query_bootstrap_95ci": [
+      -0.015388670911035582,
+      0.02398499596583971
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  }
+]

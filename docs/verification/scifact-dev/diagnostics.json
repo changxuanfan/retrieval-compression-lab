@@ -1,0 +1,267 @@
+{
+  "centering_without_dimension_reduction": {
+    "ndcg@10": 0.7276219221032667,
+    "recall@10": 0.844753086419753,
+    "mrr@10": 0.6988830099941211,
+    "ndcg@100": 0.7538779202015893,
+    "recall@100": 0.9629629629629629,
+    "mrr@100": 0.702800110455562,
+    "query_doc_overlap@10": 0.7154320987654321
+  },
+  "ae": [
+    {
+      "run": "ae-128d-seed17",
+      "dimension": 128,
+      "seed": 17,
+      "full_corpus_reconstruction": 0.0704402355749569,
+      "pca_reconstruction_floor": 0.07017102000655452,
+      "reconstruction_ratio_to_pca": 1.0038365634185913,
+      "encoder_condition_number": 2.056455790706112,
+      "mean_squared_subspace_cosine": 0.9585702942279481,
+      "raw_ae_ndcg@10": 0.6987550511223917,
+      "orthonormalized_rowspace_ndcg@10": 0.6792282131716324,
+      "pca_ndcg@10": 0.6745651102686688,
+      "last_probe_reduction_fraction": 9.057921975268334e-05,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-128d-seed2026",
+      "dimension": 128,
+      "seed": 2026,
+      "full_corpus_reconstruction": 0.0704175875859878,
+      "pca_reconstruction_floor": 0.07017102000655452,
+      "reconstruction_ratio_to_pca": 1.0035138092535958,
+      "encoder_condition_number": 2.0665715978215715,
+      "mean_squared_subspace_cosine": 0.9603807418441132,
+      "raw_ae_ndcg@10": 0.6838687908797728,
+      "orthonormalized_rowspace_ndcg@10": 0.6774604712233293,
+      "pca_ndcg@10": 0.6745651102686688,
+      "last_probe_reduction_fraction": 2.774105810629563e-05,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-128d-seed42",
+      "dimension": 128,
+      "seed": 42,
+      "full_corpus_reconstruction": 0.07041213240669097,
+      "pca_reconstruction_floor": 0.07017102000655452,
+      "reconstruction_ratio_to_pca": 1.0034360680536485,
+      "encoder_condition_number": 2.081656366532252,
+      "mean_squared_subspace_cosine": 0.9584121334920145,
+      "raw_ae_ndcg@10": 0.6825155241456019,
+      "orthonormalized_rowspace_ndcg@10": 0.6813519034917859,
+      "pca_ndcg@10": 0.6745651102686688,
+      "last_probe_reduction_fraction": -7.293236231880736e-06,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-256d-seed17",
+      "dimension": 256,
+      "seed": 17,
+      "full_corpus_reconstruction": 0.029318506318158744,
+      "pca_reconstruction_floor": 0.029145562614417427,
+      "reconstruction_ratio_to_pca": 1.0059337919130018,
+      "encoder_condition_number": 2.4875536693482125,
+      "mean_squared_subspace_cosine": 0.9698174985056836,
+      "raw_ae_ndcg@10": 0.7198642130101144,
+      "orthonormalized_rowspace_ndcg@10": 0.718437117620072,
+      "pca_ndcg@10": 0.7194961254956238,
+      "last_probe_reduction_fraction": 0.0002596363902412486,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-256d-seed2026",
+      "dimension": 256,
+      "seed": 2026,
+      "full_corpus_reconstruction": 0.029324592115869717,
+      "pca_reconstruction_floor": 0.029145562614417427,
+      "reconstruction_ratio_to_pca": 1.0061425989204864,
+      "encoder_condition_number": 2.4909858767398108,
+      "mean_squared_subspace_cosine": 0.9695420339484937,
+      "raw_ae_ndcg@10": 0.7158544941778622,
+      "orthonormalized_rowspace_ndcg@10": 0.7176911585604415,
+      "pca_ndcg@10": 0.7194961254956238,
+      "last_probe_reduction_fraction": 6.659704721824446e-05,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-256d-seed42",
+      "dimension": 256,
+      "seed": 42,
+      "full_corpus_reconstruction": 0.029311813634111776,
+      "pca_reconstruction_floor": 0.029145562614417427,
+      "reconstruction_ratio_to_pca": 1.0057041623074419,
+      "encoder_condition_number": 2.4762834020775704,
+      "mean_squared_subspace_cosine": 0.9728114804588792,
+      "raw_ae_ndcg@10": 0.7137260112952585,
+      "orthonormalized_rowspace_ndcg@10": 0.7203465512155065,
+      "pca_ndcg@10": 0.7194961254956238,
+      "last_probe_reduction_fraction": 3.121161222392138e-05,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-384d-seed17",
+      "dimension": 384,
+      "seed": 17,
+      "full_corpus_reconstruction": 0.010224838645358997,
+      "pca_reconstruction_floor": 0.010122818510733482,
+      "reconstruction_ratio_to_pca": 1.0100782340923469,
+      "encoder_condition_number": 2.7053936096390965,
+      "mean_squared_subspace_cosine": 0.9789830369233391,
+      "raw_ae_ndcg@10": 0.7128007783528368,
+      "orthonormalized_rowspace_ndcg@10": 0.7198298913065795,
+      "pca_ndcg@10": 0.7239240470996786,
+      "last_probe_reduction_fraction": 0.0006895011348601947,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-384d-seed2026",
+      "dimension": 384,
+      "seed": 2026,
+      "full_corpus_reconstruction": 0.010226386846567022,
+      "pca_reconstruction_floor": 0.010122818510733482,
+      "reconstruction_ratio_to_pca": 1.0102311758058018,
+      "encoder_condition_number": 2.712079089364896,
+      "mean_squared_subspace_cosine": 0.9789697859970938,
+      "raw_ae_ndcg@10": 0.7110830113064665,
+      "orthonormalized_rowspace_ndcg@10": 0.7254080530266243,
+      "pca_ndcg@10": 0.7239240470996786,
+      "last_probe_reduction_fraction": 0.00022943905616207237,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-384d-seed42",
+      "dimension": 384,
+      "seed": 42,
+      "full_corpus_reconstruction": 0.010226257260553318,
+      "pca_reconstruction_floor": 0.010122818510733482,
+      "reconstruction_ratio_to_pca": 1.0102183744290345,
+      "encoder_condition_number": 2.6902274898890735,
+      "mean_squared_subspace_cosine": 0.9796423787537298,
+      "raw_ae_ndcg@10": 0.7211530014309753,
+      "orthonormalized_rowspace_ndcg@10": 0.7238886424450589,
+      "pca_ndcg@10": 0.7239240470996786,
+      "last_probe_reduction_fraction": 0.0001628117397829538,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-64d-seed17",
+      "dimension": 64,
+      "seed": 17,
+      "full_corpus_reconstruction": 0.10975669761537307,
+      "pca_reconstruction_floor": 0.1094157065157969,
+      "reconstruction_ratio_to_pca": 1.0031164730406135,
+      "encoder_condition_number": 1.666859753775897,
+      "mean_squared_subspace_cosine": 0.9331473086891895,
+      "raw_ae_ndcg@10": 0.5949384537036172,
+      "orthonormalized_rowspace_ndcg@10": 0.5835357473126173,
+      "pca_ndcg@10": 0.5923023878473997,
+      "last_probe_reduction_fraction": 2.96185426551241e-05,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-64d-seed2026",
+      "dimension": 64,
+      "seed": 2026,
+      "full_corpus_reconstruction": 0.10967695687667815,
+      "pca_reconstruction_floor": 0.1094157065157969,
+      "reconstruction_ratio_to_pca": 1.0023876860937102,
+      "encoder_condition_number": 1.695473168259015,
+      "mean_squared_subspace_cosine": 0.9411284080877704,
+      "raw_ae_ndcg@10": 0.5876419396950325,
+      "orthonormalized_rowspace_ndcg@10": 0.6051210220777461,
+      "pca_ndcg@10": 0.5923023878473997,
+      "last_probe_reduction_fraction": 9.391777740091406e-06,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    },
+    {
+      "run": "ae-64d-seed42",
+      "dimension": 64,
+      "seed": 42,
+      "full_corpus_reconstruction": 0.10975434260561635,
+      "pca_reconstruction_floor": 0.1094157065157969,
+      "reconstruction_ratio_to_pca": 1.0030949495333246,
+      "encoder_condition_number": 1.7089217152705105,
+      "mean_squared_subspace_cosine": 0.9362278120125113,
+      "raw_ae_ndcg@10": 0.5923964720997382,
+      "orthonormalized_rowspace_ndcg@10": 0.5945245098006633,
+      "pca_ndcg@10": 0.5923023878473997,
+      "last_probe_reduction_fraction": -9.510048974073329e-06,
+      "warning": "Orthonormalized rowspace is a diagnostic transformation, not a replacement of the measured vanilla AE baseline"
+    }
+  ],
+  "ae_vs_pca_seed_query_bootstrap": [
+    {
+      "dimension": 64,
+      "candidate_runs": [
+        "ae-64d-seed17",
+        "ae-64d-seed2026",
+        "ae-64d-seed42"
+      ],
+      "delta": -0.0006434326812703908,
+      "seed_query_bootstrap_95ci": [
+        -0.019093409828587617,
+        0.018712098836787764
+      ],
+      "seed_count": 3,
+      "query_count": 162,
+      "samples": 10000,
+      "bootstrap_seed": 2026,
+      "limitation": "Exploratory percentile interval; only three trained seeds; not a multiple-comparison-adjusted confirmatory result"
+    },
+    {
+      "dimension": 128,
+      "candidate_runs": [
+        "ae-128d-seed17",
+        "ae-128d-seed2026",
+        "ae-128d-seed42"
+      ],
+      "delta": 0.013814678447253306,
+      "seed_query_bootstrap_95ci": [
+        -0.0011533236621209615,
+        0.0300360950007042
+      ],
+      "seed_count": 3,
+      "query_count": 162,
+      "samples": 10000,
+      "bootstrap_seed": 2026,
+      "limitation": "Exploratory percentile interval; only three trained seeds; not a multiple-comparison-adjusted confirmatory result"
+    },
+    {
+      "dimension": 256,
+      "candidate_runs": [
+        "ae-256d-seed17",
+        "ae-256d-seed2026",
+        "ae-256d-seed42"
+      ],
+      "delta": -0.0030145526678788223,
+      "seed_query_bootstrap_95ci": [
+        -0.018769077746401585,
+        0.012538987810184962
+      ],
+      "seed_count": 3,
+      "query_count": 162,
+      "samples": 10000,
+      "bootstrap_seed": 2026,
+      "limitation": "Exploratory percentile interval; only three trained seeds; not a multiple-comparison-adjusted confirmatory result"
+    },
+    {
+      "dimension": 384,
+      "candidate_runs": [
+        "ae-384d-seed17",
+        "ae-384d-seed2026",
+        "ae-384d-seed42"
+      ],
+      "delta": -0.008911783402919007,
+      "seed_query_bootstrap_95ci": [
+        -0.0249998420745017,
+        0.00730234757364416
+      ],
+      "seed_count": 3,
+      "query_count": 162,
+      "samples": 10000,
+      "bootstrap_seed": 2026,
+      "limitation": "Exploratory percentile interval; only three trained seeds; not a multiple-comparison-adjusted confirmatory result"
+    }
+  ]
+}

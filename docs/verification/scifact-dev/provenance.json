@@ -1,0 +1,8 @@
+{
+  "source_study": "runs/scifact/dev/342e2396ee22",
+  "source_study_manifest_sha256": "8a4789f4d7cd228c5d21080f9dfc7c8ab633a156cd949ad0d279ce2fd871a1c7",
+  "source_code_hash_at_original_run": "96d9d8d477af4604e0631382d3856820e5ee091b64c9feeba7e923b7c863ff05",
+  "query_split": "dev only",
+  "test_used": false,
+  "ranking_tolerance": "Float64 independent exhaustive score gap <2e-6"
+}

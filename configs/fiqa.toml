@@ -1,0 +1,8 @@
+[data]
+name = "fiqa"
+
+[experiment]
+output = "runs/fiqa"
+split = "dev"
+dimensions = [384, 256, 128, 64]
+seeds = [17, 42, 2026]

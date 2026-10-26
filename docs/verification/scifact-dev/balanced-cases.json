@@ -1,0 +1,632 @@
+[
+  {
+    "category": "regression",
+    "query_id": "494",
+    "query_text": "HSCT-T dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before AMI.",
+    "ae_mean_minus_pca_ndcg@10": -0.2890648263178879,
+    "relevant_documents": [
+      {
+        "id": "34873974",
+        "title": "Diagnostic accuracy of single baseline measurement of Elecsys Troponin T high-sensitive assay for diagnosis of acute myocardial infarction in emergency department: systematic review and meta-analysis"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 0.3562071871080222,
+        "relevant_ranks_in_top100": {
+          "34873974": 6
+        },
+        "top10": [
+          "601033",
+          "22371455",
+          "46353045",
+          "1373287",
+          "80522346",
+          "34873974",
+          "39443128",
+          "24396137",
+          "16980892",
+          "28617573"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.2890648263178879,
+        "relevant_ranks_in_top100": {
+          "34873974": 10
+        },
+        "top10": [
+          "22371455",
+          "46353045",
+          "3056682",
+          "4910408",
+          "44562904",
+          "601033",
+          "7852582",
+          "37912677",
+          "39300105",
+          "34873974"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "34873974": 33
+        },
+        "top10": [
+          "22371455",
+          "4910408",
+          "601033",
+          "3056682",
+          "44562904",
+          "46353045",
+          "39443128",
+          "10165258",
+          "38630735",
+          "14340571"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "34873974": 13
+        },
+        "top10": [
+          "22371455",
+          "4910408",
+          "3056682",
+          "46353045",
+          "601033",
+          "2842550",
+          "21789744",
+          "39443128",
+          "44562904",
+          "14340571"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "34873974": 16
+        },
+        "top10": [
+          "3056682",
+          "601033",
+          "22371455",
+          "46353045",
+          "44562904",
+          "39443128",
+          "38630735",
+          "28738741",
+          "1373287",
+          "7852582"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  },
+  {
+    "category": "regression",
+    "query_id": "568",
+    "query_text": "In a naive state, blocking Wingless-Int-1 secretion from mouse embryonic stem cells inhibits self-renewal of the mouse embryonic stem cells.",
+    "ae_mean_minus_pca_ndcg@10": -0.25105222817944595,
+    "relevant_documents": [
+      {
+        "id": "23418635",
+        "title": "Embryonic stem cells require Wnt proteins to prevent differentiation to epiblast stem cells"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 0.5,
+        "relevant_ranks_in_top100": {
+          "23418635": 3
+        },
+        "top10": [
+          "6441369",
+          "4462419",
+          "23418635",
+          "18489989",
+          "13936152",
+          "6455142",
+          "1381673",
+          "22150633",
+          "22843616",
+          "26899920"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.3562071871080222,
+        "relevant_ranks_in_top100": {
+          "23418635": 6
+        },
+        "top10": [
+          "4784069",
+          "6441369",
+          "39465575",
+          "4462419",
+          "30884033",
+          "23418635",
+          "22843616",
+          "22150633",
+          "11360430",
+          "26899920"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 0.31546487678572877,
+        "relevant_ranks_in_top100": {
+          "23418635": 8
+        },
+        "top10": [
+          "4784069",
+          "11360430",
+          "26899920",
+          "18489989",
+          "4462419",
+          "1381673",
+          "9550981",
+          "23418635",
+          "6455142",
+          "22150633"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "23418635": 14
+        },
+        "top10": [
+          "4784069",
+          "6455142",
+          "1381673",
+          "11360430",
+          "26899920",
+          "6441369",
+          "30884033",
+          "4462419",
+          "39465575",
+          "22843616"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "23418635": 17
+        },
+        "top10": [
+          "4784069",
+          "39465575",
+          "11360430",
+          "6441369",
+          "6455142",
+          "9550981",
+          "22150633",
+          "26899920",
+          "4462419",
+          "30884033"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  },
+  {
+    "category": "regression",
+    "query_id": "134",
+    "query_text": "Assessing treatment adherence is more beneficial to clinical practice than measuring routine outcomes.",
+    "ae_mean_minus_pca_ndcg@10": -0.13264666955734586,
+    "relevant_documents": [
+      {
+        "id": "4695046",
+        "title": "Anxiety"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "4695046": 13
+        },
+        "top10": [
+          "35087728",
+          "27188320",
+          "20188586",
+          "21884449",
+          "37029185",
+          "24865781",
+          "33417012",
+          "2844897",
+          "15041758",
+          "21260231"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.3333333333333333,
+        "relevant_ranks_in_top100": {
+          "4695046": 7
+        },
+        "top10": [
+          "35087728",
+          "32969964",
+          "37029185",
+          "27188320",
+          "28017005",
+          "29845974",
+          "4695046",
+          "31612088",
+          "2844897",
+          "20188586"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "4695046": 13
+        },
+        "top10": [
+          "35087728",
+          "37029185",
+          "32969964",
+          "27188320",
+          "29845974",
+          "2844897",
+          "28017005",
+          "144801076",
+          "20188586",
+          "13031967"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 0.3010299956639812,
+        "relevant_ranks_in_top100": {
+          "4695046": 9
+        },
+        "top10": [
+          "35087728",
+          "37029185",
+          "32969964",
+          "27188320",
+          "29845974",
+          "28017005",
+          "2844897",
+          "21260231",
+          "4695046",
+          "20188586"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 0.3010299956639812,
+        "relevant_ranks_in_top100": {
+          "4695046": 9
+        },
+        "top10": [
+          "35087728",
+          "37029185",
+          "32969964",
+          "27188320",
+          "28017005",
+          "29845974",
+          "485020",
+          "2844897",
+          "4695046",
+          "20188586"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  },
+  {
+    "category": "improvement",
+    "query_id": "39",
+    "query_text": "A diminished ovarian reserve does not solely indicate infertility in an a priori non-infertile population.",
+    "ae_mean_minus_pca_ndcg@10": 0.36907024642854247,
+    "relevant_documents": [
+      {
+        "id": "13497630",
+        "title": "Association Between Biomarkers of Ovarian Reserve and Infertility Among Older Women of Reproductive Age"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "13497630": 1
+        },
+        "top10": [
+          "13497630",
+          "427865",
+          "42150015",
+          "18949516",
+          "34198460",
+          "8642784",
+          "22007333",
+          "13481731",
+          "25993718",
+          "14827874"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.6309297535714575,
+        "relevant_ranks_in_top100": {
+          "13497630": 2
+        },
+        "top10": [
+          "34198460",
+          "13497630",
+          "42150015",
+          "427865",
+          "8642784",
+          "25993718",
+          "9548440",
+          "13481731",
+          "11109043",
+          "85693958"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "13497630": 1
+        },
+        "top10": [
+          "13497630",
+          "427865",
+          "34198460",
+          "42150015",
+          "8642784",
+          "25993718",
+          "33669399",
+          "9548440",
+          "11109043",
+          "85693958"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "13497630": 1
+        },
+        "top10": [
+          "13497630",
+          "427865",
+          "34198460",
+          "8642784",
+          "42150015",
+          "33669399",
+          "9548440",
+          "25993718",
+          "18949516",
+          "11109043"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "13497630": 1
+        },
+        "top10": [
+          "13497630",
+          "34198460",
+          "427865",
+          "8642784",
+          "42150015",
+          "33669399",
+          "25993718",
+          "11109043",
+          "40781557",
+          "13481731"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  },
+  {
+    "category": "improvement",
+    "query_id": "211",
+    "query_text": "COPI coatmer is involved in viral replication.",
+    "ae_mean_minus_pca_ndcg@10": 0.3452170057845345,
+    "relevant_documents": [
+      {
+        "id": "13794374",
+        "title": "COPI Complex Is a Regulator of Lipid Homeostasis"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "13794374": 1
+        },
+        "top10": [
+          "13794374",
+          "13903052",
+          "14376683",
+          "2638387",
+          "8577229",
+          "4406819",
+          "8005007",
+          "4429388",
+          "544971",
+          "4347374"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.0,
+        "relevant_ranks_in_top100": {
+          "13794374": 24
+        },
+        "top10": [
+          "13903052",
+          "8577229",
+          "14376683",
+          "4828984",
+          "544971",
+          "4347374",
+          "2638387",
+          "4429388",
+          "31560225",
+          "20357868"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 0.3333333333333333,
+        "relevant_ranks_in_top100": {
+          "13794374": 7
+        },
+        "top10": [
+          "13903052",
+          "8577229",
+          "31560225",
+          "4828984",
+          "21274496",
+          "14376683",
+          "13794374",
+          "31514338",
+          "20357868",
+          "25737507"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 0.38685280723454163,
+        "relevant_ranks_in_top100": {
+          "13794374": 5
+        },
+        "top10": [
+          "13903052",
+          "8577229",
+          "2638387",
+          "31560225",
+          "13794374",
+          "14376683",
+          "544971",
+          "31514338",
+          "4347374",
+          "20357868"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 0.31546487678572877,
+        "relevant_ranks_in_top100": {
+          "13794374": 8
+        },
+        "top10": [
+          "13903052",
+          "8577229",
+          "4828984",
+          "14376683",
+          "8005007",
+          "4429388",
+          "20357868",
+          "13794374",
+          "4231060",
+          "4347374"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  },
+  {
+    "category": "improvement",
+    "query_id": "1168",
+    "query_text": "The HSV-2 infection is typically asymptomatic.",
+    "ae_mean_minus_pca_ndcg@10": 0.2625285419279852,
+    "relevant_documents": [
+      {
+        "id": "8563659",
+        "title": "Persistence of HIV-1 Receptor-Positive Cells after HSV-2 Reactivation: A Potential Mechanism for Increased HIV-1 Acquisition"
+      }
+    ],
+    "runs": {
+      "original-768d-seed0": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "8563659": 1
+        },
+        "top10": [
+          "8563659",
+          "27555165",
+          "40584205",
+          "5735492",
+          "12966719",
+          "22309946",
+          "16980892",
+          "46355579",
+          "21932050",
+          "24512064"
+        ]
+      },
+      "pca-128d-seed0": {
+        "ndcg@10": 0.3562071871080222,
+        "relevant_ranks_in_top100": {
+          "8563659": 6
+        },
+        "top10": [
+          "5735492",
+          "24512064",
+          "21216726",
+          "7264949",
+          "5548081",
+          "8563659",
+          "27555165",
+          "46355579",
+          "40584205",
+          "16172576"
+        ]
+      },
+      "ae-128d-seed2026": {
+        "ndcg@10": 1.0,
+        "relevant_ranks_in_top100": {
+          "8563659": 1
+        },
+        "top10": [
+          "8563659",
+          "24512064",
+          "27555165",
+          "5735492",
+          "40584205",
+          "5548081",
+          "46355579",
+          "21216726",
+          "7264949",
+          "21932050"
+        ]
+      },
+      "ae-128d-seed42": {
+        "ndcg@10": 0.3562071871080222,
+        "relevant_ranks_in_top100": {
+          "8563659": 6
+        },
+        "top10": [
+          "24512064",
+          "21216726",
+          "40584205",
+          "27555165",
+          "5548081",
+          "8563659",
+          "5735492",
+          "46355579",
+          "7264949",
+          "21932050"
+        ]
+      },
+      "ae-128d-seed17": {
+        "ndcg@10": 0.5,
+        "relevant_ranks_in_top100": {
+          "8563659": 3
+        },
+        "top10": [
+          "27555165",
+          "40584205",
+          "8563659",
+          "5548081",
+          "5735492",
+          "21216726",
+          "24512064",
+          "46355579",
+          "21150010",
+          "21932050"
+        ]
+      }
+    },
+    "interpretation": "Selected by a symmetric numeric rule, not causal explanation"
+  }
+]

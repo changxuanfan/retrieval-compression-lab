@@ -1,0 +1,33 @@
+{
+  "training_auxiliary_file_sha256_at_audit_time": {
+    "ae-128d-seed17/training.csv": "0a77be72b1e54297be02e7c6d9c78682905fad8960ef9a8ca69d67f9d737f155",
+    "ae-128d-seed17/training_decoder.npz": "df72be280360878033df12d38f7b96c9481d437310919a695c249dadaa4fc40b",
+    "ae-128d-seed2026/training.csv": "19f1fc8a27c9bb605ce2cac118a7fd93b9fc659a9286992744c8e6e9c6eb003d",
+    "ae-128d-seed2026/training_decoder.npz": "348415a4d3a6c045b0a44d4abe75bea5afd78b963882462cff2e3f9f77f1b52f",
+    "ae-128d-seed42/training.csv": "0b3844734760624980637d5ff752178e83ad938cecd356170edc4bde85cd60f6",
+    "ae-128d-seed42/training_decoder.npz": "b573f42f3cf75c48fa2cfa2ed7f3370b7cf095a36ca753f0040080f96c11c663",
+    "ae-256d-seed17/training.csv": "9cbabfc647477dc1398d73a41c76d91008798d38b881e87d9decaccee88149f3",
+    "ae-256d-seed17/training_decoder.npz": "cef2f6544506290ab01070f146c87cd4765682fab83f6e306d2b4a602fa62f38",
+    "ae-256d-seed2026/training.csv": "158c8d561d2e46b014ea16df87738ec061edec2dedb323b9ddd9144c4c679168",
+    "ae-256d-seed2026/training_decoder.npz": "088e9975500d15f243ac14b421e4214fd5e55ef50776afeb5f1627bf3adf9b85",
+    "ae-256d-seed42/training.csv": "aa80582312c04d42516d7bcce44c663b8a945f3bb8270dff7f573de9ea17245b",
+    "ae-256d-seed42/training_decoder.npz": "1eda9a5279a40507c4921b55e5b5dd29f701cefa019bc20d3e546f03e0bef6b9",
+    "ae-384d-seed17/training.csv": "e1ce6820da54c96f5333f3cb781df06ac5d15cf71df51e6670e55a21aefde500",
+    "ae-384d-seed17/training_decoder.npz": "890bcd94ef48dc80c7466de3225bb2696e76f2f9cc1b417ce838460e05d417f6",
+    "ae-384d-seed2026/training.csv": "98677576dea8632518c25549d22ba15783850e9c39fb078af96c51bdf0c6c5c7",
+    "ae-384d-seed2026/training_decoder.npz": "6e8b5edcdc426a932995ed08d79b6039fb0837e1c6dd29d86b4a8bb7fbe448c8",
+    "ae-384d-seed42/training.csv": "370f191510e1b316eafcb88fe188925a8acdb06287b33ef148c2c739bd2971c8",
+    "ae-384d-seed42/training_decoder.npz": "4f7636eade12baebb2e2b2857599c94203cf16d457cba95d9808e64879436701",
+    "ae-64d-seed17/training.csv": "ca1c6b85266b86cbda097f60cec04305d8cb39c8952e8e1cc2b9f40db938b039",
+    "ae-64d-seed17/training_decoder.npz": "2c5d84b08fcf56cc6e5be6611f84ee007e01579ded54627947eb54aa45a3b001",
+    "ae-64d-seed2026/training.csv": "5bf7e532b36581bbc5006c1c062c58c9525c8e02dca08dc035c7af42df21ce58",
+    "ae-64d-seed2026/training_decoder.npz": "2642d6f12464397d0f1d7e10664b2908808057c45eea7273624371049d186314",
+    "ae-64d-seed42/training.csv": "90f5231458988937da0de9bd5fe91931c440334b8b048cf82507abb62bb2534b",
+    "ae-64d-seed42/training_decoder.npz": "9e8996a3b092884549349ff5dc391797afde1796d808a27df6a3f958bf72ee87"
+  },
+  "note": "These new hashes protect subsequent verification; they cannot retroactively prove auxiliary files were unchanged since original training.",
+  "original_core_source_sha256": "96d9d8d477af4604e0631382d3856820e5ee091b64c9feeba7e923b7c863ff05",
+  "current_core_source_matches_original": true,
+  "source_archive_sha256": "d0e6f1607ea3c368d404388e6eed5bed7e2ea88aacff5db660f5c8962d04eae9",
+  "source_archive_metadata_local_paths_removed": true
+}

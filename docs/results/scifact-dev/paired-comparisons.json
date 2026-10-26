@@ -1,0 +1,158 @@
+[
+  {
+    "candidate": "ae-128d-seed17",
+    "reference": "pca-128d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.024189940853722884,
+    "query_bootstrap_95ci": [
+      0.009123136059585714,
+      0.04019512631755725
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-128d-seed2026",
+    "reference": "pca-128d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.009303680611104011,
+    "query_bootstrap_95ci": [
+      -0.004662220968726396,
+      0.024806505435562783
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-128d-seed42",
+    "reference": "pca-128d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.007950413876933023,
+    "query_bootstrap_95ci": [
+      -0.008322190252163469,
+      0.02481643757053393
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-256d-seed17",
+    "reference": "pca-256d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.0003680875144905244,
+    "query_bootstrap_95ci": [
+      -0.01627354676916305,
+      0.016109872332472113
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-256d-seed2026",
+    "reference": "pca-256d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.0036416313177616002,
+    "query_bootstrap_95ci": [
+      -0.019845709532295887,
+      0.01212193941614836
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-256d-seed42",
+    "reference": "pca-256d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.005770114200365392,
+    "query_bootstrap_95ci": [
+      -0.022264143659387062,
+      0.011299371019049624
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-384d-seed17",
+    "reference": "pca-384d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.011123268746841683,
+    "query_bootstrap_95ci": [
+      -0.029229984806235326,
+      0.0083452797526954
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-384d-seed2026",
+    "reference": "pca-384d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.012841035793212085,
+    "query_bootstrap_95ci": [
+      -0.028805804625675207,
+      0.002020404765981829
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-384d-seed42",
+    "reference": "pca-384d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.002771045668703256,
+    "query_bootstrap_95ci": [
+      -0.017182345648443544,
+      0.012555066012983923
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-64d-seed17",
+    "reference": "pca-64d-seed0",
+    "metric": "ndcg@10",
+    "delta": 0.0026360658562175443,
+    "query_bootstrap_95ci": [
+      -0.018223997252451846,
+      0.024468925330338127
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-64d-seed2026",
+    "reference": "pca-64d-seed0",
+    "metric": "ndcg@10",
+    "delta": -0.004660448152367186,
+    "query_bootstrap_95ci": [
+      -0.026185755850284414,
+      0.01806107951421526
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  {
+    "candidate": "ae-64d-seed42",
+    "reference": "pca-64d-seed0",
+    "metric": "ndcg@10",
+    "delta": 9.408425233846676e-05,
+    "query_bootstrap_95ci": [
+      -0.020946934424394763,
+      0.02195471196918722
+    ],
+    "samples": 2000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "pca256_minus_pca384": {
+    "metric": "ndcg@10",
+    "delta": -0.0044279216040547095,
+    "query_bootstrap_95ci": [
+      -0.01920314211159091,
+      0.010441789250453365
+    ],
+    "samples": 10000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  "pca128_minus_pca256": {
+    "metric": "ndcg@10",
+    "delta": -0.04493101522695498,
+    "query_bootstrap_95ci": [
+      -0.06885658138707335,
+      -0.022622895104963802
+    ],
+    "samples": 10000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  },
+  "pca256_minus_original": {
+    "metric": "ndcg@10",
+    "delta": -0.03251612408481372,
+    "query_bootstrap_95ci": [
+      -0.0525084740078689,
+      -0.014114329021454515
+    ],
+    "samples": 10000,
+    "seed": 2026,
+    "interpretation": "conditional on this fitted seed; not seed uncertainty"
+  }
+}

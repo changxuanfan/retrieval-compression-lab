@@ -1,0 +1,98 @@
+[
+  {
+    "run": "ae-128d-seed42",
+    "metric": "ndcg@10",
+    "largest_regressions": [
+      {
+        "query_id": "211",
+        "delta": -1.0
+      },
+      {
+        "query_id": "934",
+        "delta": -0.7109351736821121
+      },
+      {
+        "query_id": "1168",
+        "delta": -0.6131471927654584
+      }
+    ],
+    "largest_improvements": [
+      {
+        "query_id": "62",
+        "delta": 0.5693234419266069
+      },
+      {
+        "query_id": "416",
+        "delta": 0.5693234419266069
+      },
+      {
+        "query_id": "109",
+        "delta": 0.36907024642854247
+      }
+    ]
+  },
+  {
+    "run": "pca-128d-seed0",
+    "metric": "ndcg@10",
+    "largest_regressions": [
+      {
+        "query_id": "211",
+        "delta": -1.0
+      },
+      {
+        "query_id": "934",
+        "delta": -0.7109351736821121
+      },
+      {
+        "query_id": "403",
+        "delta": -0.6666666666666667
+      }
+    ],
+    "largest_improvements": [
+      {
+        "query_id": "416",
+        "delta": 0.5693234419266069
+      },
+      {
+        "query_id": "109",
+        "delta": 0.36907024642854247
+      },
+      {
+        "query_id": "1070",
+        "delta": 0.3562071871080222
+      }
+    ]
+  },
+  {
+    "run": "rp-128d-seed42",
+    "metric": "ndcg@10",
+    "largest_regressions": [
+      {
+        "query_id": "1157",
+        "delta": -1.0
+      },
+      {
+        "query_id": "1166",
+        "delta": -1.0
+      },
+      {
+        "query_id": "1168",
+        "delta": -1.0
+      }
+    ],
+    "largest_improvements": [
+      {
+        "query_id": "109",
+        "delta": 0.36907024642854247
+      },
+      {
+        "query_id": "35",
+        "delta": 0.21739101196037833
+      },
+      {
+        "query_id": "416",
+        "delta": 0.20025319549806447
+      }
+    ]
+  }
+]

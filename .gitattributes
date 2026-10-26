@@ -1,0 +1,5 @@
+* text=auto
+# Preserve measured CSV bytes and their recorded SHA256 checksums.
+*.csv -text whitespace=cr-at-eol
+*.png binary
+*.zip binary

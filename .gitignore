@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+data/
+cache/
+runs/
+dist/
+.env
+.env.*
+private/
+# Course-only documents contain student information and internal feedback.
+/comp_5331 (2)(2) (2).pdf
+/14-RaymondComment (2).pdf

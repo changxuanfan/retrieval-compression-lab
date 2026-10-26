@@ -1,0 +1,234 @@
+{
+  "ae-128d-seed42": {
+    "dataset": "scifact",
+    "split": "dev",
+    "method": "ae",
+    "dimension": 128,
+    "seed": 42,
+    "documents": 5183,
+    "queries": 162,
+    "metrics": {
+      "ndcg@10": 0.679068975771925,
+      "recall@10": 0.8169753086419753,
+      "mrr@10": 0.643035959239663,
+      "ndcg@100": 0.7086293739171161,
+      "recall@100": 0.9444444444444444,
+      "mrr@100": 0.6480020000212103
+    },
+    "timing": {
+      "search_p50_ms": 0.09918696014210582,
+      "search_p95_ms": 0.36914122174493913,
+      "batch_search_queries_per_second": 1632.2288693100838,
+      "timed_queries": 50,
+      "repeats": 3,
+      "scope": "CPU exact search wrapper; excludes model encoding and projection; includes normalization, result ordering and tie expansion",
+      "fit_seconds": 9.11067741701845,
+      "document_transform_seconds": 0.06076037499587983,
+      "query_batch_transform_seconds": 0.0019712919602170587,
+      "query_batch_transform_ms_per_query": 0.012168468890228757,
+      "index_build_seconds": 0.009557542041875422
+    },
+    "query_doc_overlap@10": 0.5962962962962962,
+    "doc_doc_overlap@10": 0.6734375,
+    "storage": {
+      "vector_payload_bytes": 2653696,
+      "index_file_bytes": 2653741,
+      "compressor_file_bytes": 396796,
+      "training_decoder_file_bytes": 393484
+    },
+    "paired_vs_original": {
+      "metric": "ndcg@10",
+      "delta": -0.07294327380851252,
+      "query_bootstrap_95ci": [
+        -0.10509641517893033,
+        -0.04101697209783276
+      ],
+      "samples": 2000,
+      "seed": 2026,
+      "interpretation": "conditional on this fitted seed; not seed uncertainty"
+    },
+    "study_id": "88534189621b",
+    "files": {
+      "compressor.npz": "266e13353347728691a75a6c6fe642688697a872d593fd389e589c16b0c1806e",
+      "compressor.json": "cabc44e910619c7fe6bcab7a9047c6b938dc0e423c0197c9793f78f7e184629f",
+      "per_query.json": "dd69a8c491b47b4627b2adabc8745eb279f96ae6a55d2ffb07bdbcac04727179",
+      "ranking.jsonl": "e6f9dafdb0a9b2fae820149fa033669a24fea8e02c808a5f6421eb779796f4b4",
+      "geometry.json": "00cf785dc52e99d447e1ca393037cf31f081c373b96b856d1d6e2100701c4870",
+      "index.faiss": "3467b6a0c295f8e7f7557c5bcd879bdcbf9140a7114e0c7676b9e418b9d6930a"
+    }
+  },
+  "original-768d-seed0": {
+    "dataset": "scifact",
+    "split": "dev",
+    "method": "original",
+    "dimension": 768,
+    "seed": 0,
+    "documents": 5183,
+    "queries": 162,
+    "metrics": {
+      "ndcg@10": 0.7520122495804374,
+      "recall@10": 0.8509259259259259,
+      "mrr@10": 0.7254188712522046,
+      "ndcg@100": 0.775209936282948,
+      "recall@100": 0.9475308641975309,
+      "mrr@100": 0.7291899404570499
+    },
+    "timing": {
+      "search_p50_ms": 0.5390209844335914,
+      "search_p95_ms": 2.7013686951249833,
+      "batch_search_queries_per_second": 5029.422104460898,
+      "timed_queries": 50,
+      "repeats": 3,
+      "scope": "CPU exact search wrapper; excludes model encoding and projection; includes normalization, result ordering and tie expansion",
+      "fit_seconds": 3.7497375160455704e-07,
+      "document_transform_seconds": 0.018360791029408574,
+      "query_batch_transform_seconds": 0.0009452080121263862,
+      "query_batch_transform_ms_per_query": 0.005834617358804853,
+      "index_build_seconds": 0.0067584579810500145
+    },
+    "query_doc_overlap@10": 1.0,
+    "doc_doc_overlap@10": 1.0,
+    "storage": {
+      "vector_payload_bytes": 15922176,
+      "index_file_bytes": 15922221,
+      "compressor_file_bytes": 22,
+      "training_decoder_file_bytes": 0
+    },
+    "paired_vs_original": {
+      "metric": "ndcg@10",
+      "delta": 0.0,
+      "query_bootstrap_95ci": [
+        0.0,
+        0.0
+      ],
+      "samples": 2000,
+      "seed": 2026,
+      "interpretation": "conditional on this fitted seed; not seed uncertainty"
+    },
+    "study_id": "88534189621b",
+    "files": {
+      "compressor.npz": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "compressor.json": "4064737c01e5b6ed4fab33ce59cf0eea06f10e3fd6ba638e313cf00d5bbe9b7d",
+      "per_query.json": "ed5dec861f28387b266a54211b176f1e44b6c45e905d731e2660eb8bc315cd28",
+      "ranking.jsonl": "9e638f0af632e3464be5659d89713d5dd6e917e77558deddd9d6c747a94ddc8f",
+      "geometry.json": "978c50f615d3d70f4d0b5d93ce472280f3ffb5e51fc0d098348aa4694831bac2",
+      "index.faiss": "2f13ee0fa9397ecbc390d6e120fb504fd5c93671d68ca9009c8be6f260316eb6"
+    }
+  },
+  "pca-128d-seed0": {
+    "dataset": "scifact",
+    "split": "dev",
+    "method": "pca",
+    "dimension": 128,
+    "seed": 0,
+    "documents": 5183,
+    "queries": 162,
+    "metrics": {
+      "ndcg@10": 0.6745651102686688,
+      "recall@10": 0.8061728395061728,
+      "mrr@10": 0.6428375465412502,
+      "ndcg@100": 0.704724913439913,
+      "recall@100": 0.9475308641975309,
+      "mrr@100": 0.6473260832707287
+    },
+    "timing": {
+      "search_p50_ms": 0.09337498340755701,
+      "search_p95_ms": 0.2124331367667763,
+      "batch_search_queries_per_second": 25699.778561362713,
+      "timed_queries": 50,
+      "repeats": 3,
+      "scope": "CPU exact search wrapper; excludes model encoding and projection; includes normalization, result ordering and tie expansion",
+      "fit_seconds": 0.7444129169452935,
+      "document_transform_seconds": 0.01651433401275426,
+      "query_batch_transform_seconds": 0.00065437494777143,
+      "query_batch_transform_ms_per_query": 0.004039351529453271,
+      "index_build_seconds": 0.0028012089896947145
+    },
+    "query_doc_overlap@10": 0.6179012345679012,
+    "doc_doc_overlap@10": 0.6976562499999999,
+    "storage": {
+      "vector_payload_bytes": 2653696,
+      "index_file_bytes": 2653741,
+      "compressor_file_bytes": 396796,
+      "training_decoder_file_bytes": 0
+    },
+    "paired_vs_original": {
+      "metric": "ndcg@10",
+      "delta": -0.07744713931176869,
+      "query_bootstrap_95ci": [
+        -0.10964423102436612,
+        -0.04741175572315733
+      ],
+      "samples": 2000,
+      "seed": 2026,
+      "interpretation": "conditional on this fitted seed; not seed uncertainty"
+    },
+    "study_id": "88534189621b",
+    "files": {
+      "compressor.npz": "e26f11d0bdd2de1e31256cfc6cd6f4b44939d68dd59172ce3bcc07e1a21c1fda",
+      "compressor.json": "c9470a29623c2de5f9b70554d17a8de131acd9e8a4457c132458a1eee4c9475e",
+      "per_query.json": "34ab26d84d3373b1c960d47e1a96538d0479da39df6f69611c20ba5792fb9014",
+      "ranking.jsonl": "685e0a7511fcfce7f84d377de30047ffb0ffadc009e0d24c1886fb544a410a3a",
+      "geometry.json": "fc95278d054e0ed9977ca1ce41cafcec937de583b8b60e81d69e8ba582351ddd",
+      "index.faiss": "dce37d0820ce0de0a47e4f8b5252750f569024dd70b9dc7abe6dbfd1ce25cc95"
+    }
+  },
+  "rp-128d-seed42": {
+    "dataset": "scifact",
+    "split": "dev",
+    "method": "rp",
+    "dimension": 128,
+    "seed": 42,
+    "documents": 5183,
+    "queries": 162,
+    "metrics": {
+      "ndcg@10": 0.5274625993565045,
+      "recall@10": 0.6439300411522634,
+      "mrr@10": 0.50398540074466,
+      "ndcg@100": 0.5721356494863943,
+      "recall@100": 0.8506172839506173,
+      "mrr@100": 0.5105490838372907
+    },
+    "timing": {
+      "search_p50_ms": 0.10362500324845314,
+      "search_p95_ms": 0.45340611250139684,
+      "batch_search_queries_per_second": 4313.164753754328,
+      "timed_queries": 50,
+      "repeats": 3,
+      "scope": "CPU exact search wrapper; excludes model encoding and projection; includes normalization, result ordering and tie expansion",
+      "fit_seconds": 0.0014799169730395079,
+      "document_transform_seconds": 0.005301499972119927,
+      "query_batch_transform_seconds": 0.001316166017204523,
+      "query_batch_transform_ms_per_query": 0.00812448158768224,
+      "index_build_seconds": 0.0016436250880360603
+    },
+    "query_doc_overlap@10": 0.3432098765432099,
+    "doc_doc_overlap@10": 0.41796875,
+    "storage": {
+      "vector_payload_bytes": 2653696,
+      "index_file_bytes": 2653741,
+      "compressor_file_bytes": 393484,
+      "training_decoder_file_bytes": 0
+    },
+    "paired_vs_original": {
+      "metric": "ndcg@10",
+      "delta": -0.22454965022393314,
+      "query_bootstrap_95ci": [
+        -0.2760864933241895,
+        -0.17548637605324163
+      ],
+      "samples": 2000,
+      "seed": 2026,
+      "interpretation": "conditional on this fitted seed; not seed uncertainty"
+    },
+    "study_id": "88534189621b",
+    "files": {
+      "compressor.npz": "6ac4ce115277e6465ab57138fb4bf43d945e87150d51b04ccc6915eb71bdcd2e",
+      "compressor.json": "b3c6f4ec6be5b0baed91f3b3a4aa33ef58836e86acbb25ca5aa210e7757bc2b1",
+      "per_query.json": "bd4b6a8d3838dff4195d85ef7da6635d2520253f7c95f3048b8958a6166a762c",
+      "ranking.jsonl": "d6067a0d87a93da47cde438ba87ab79b81d94475368456fa762d5d777fcdb9f9",
+      "geometry.json": "371f53236780ef16af9c1fd2ef4cc093b322ccd08abeebfa81fe8dc38e831874",
+      "index.faiss": "6b33967d78024e91bb4f2a998456b2e440dfc482a309002dc84fd22d891aa5e2"
+    }
+  }
+}

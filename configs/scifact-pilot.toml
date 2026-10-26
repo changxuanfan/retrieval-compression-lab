@@ -1,0 +1,26 @@
+# Complete corpus, held-out dev queries, one dimension/seed; not a final result.
+[data]
+name = "scifact"
+
+[embedding]
+model = "intfloat/e5-base-v2"
+revision = "main" # resolved once to immutable SHA and persisted in embedding manifest
+device = "auto"
+batch_size = 16
+max_length = 512
+
+[experiment]
+output = "runs/scifact-pilot"
+split = "dev"
+dimensions = [128]
+seeds = [42]
+methods = ["original", "pca", "rp", "ae"]
+threads = 4
+geometry_anchors = 128
+latency_queries = 50
+latency_repeats = 3
+
+[ae]
+steps = 1000
+device = "cpu"
+log_every = 200

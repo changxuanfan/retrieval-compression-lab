@@ -1,0 +1,61 @@
+{
+  "spec": {
+    "embedding": {
+      "model": "intfloat/e5-base-v2",
+      "revision": "main",
+      "directory": "cache/embeddings",
+      "device": "auto",
+      "batch_size": 16,
+      "max_length": 512,
+      "query_prefix": "query: ",
+      "document_prefix": "passage: "
+    },
+    "dataset_manifest": {
+      "name": "scifact",
+      "source": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
+      "archive_sha256": "536e14446a0ba56ed1398ab1055f39fe852686ecad24a6306c80c490fa8e0165",
+      "files": {
+        "corpus.jsonl": "dec31c8182f3d744c7d2c09423756fd1d17cbef75808db13ba01cc0aab4d1ac6",
+        "queries.jsonl": "8ff84a7c903f722981cd8d595c022660140c51867b27608a6d4910db86080313",
+        "qrels/test.tsv": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+        "qrels/train.tsv": "a53f2114831916c096b6c37d9e54da68cef4efdcdbd5ed46533601af972acf1d"
+      },
+      "split_seed": 2026,
+      "scifact_dev_fraction": 0.2
+    },
+    "preprocessing": "title-space-text-strip; explicit prefixes once; ST pooling; L2; v1"
+  },
+  "resolved_model_revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+  "actual_device": "mps",
+  "dimension": 768,
+  "documents": 5183,
+  "queries": 1109,
+  "timings": {
+    "documents_encoding_seconds": 123.883103457978,
+    "queries_encoding_seconds": 3.823217957979068
+  },
+  "environment": {
+    "timestamp_utc": "2026-10-26T11:56:19.594497+00:00",
+    "python": "3.11.14",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "packages": {
+      "numpy": "2.4.6",
+      "torch": "2.14.1",
+      "sentence-transformers": "5.7.0",
+      "huggingface-hub": "1.33.0",
+      "faiss-cpu": "1.15.1",
+      "matplotlib": "3.11.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "git_commit": null,
+    "source_sha256": "d445958497072dbd039ce9638996efa9890c6127d727c49267d5554f9dba10b2"
+  },
+  "encoding_timing_scope": "batched encoding incl tokenization, normalization, array writes; excludes model download/loading",
+  "files": {
+    "documents.npy": "58939e921637eeb87beb920fec9c89aa295225ec662f7379996588bcc4310477",
+    "queries.npy": "9e281f3deaf976638efd69cf41df952218d2f4b842a498ca6d66dc6569468926",
+    "doc_ids.json": "f6eb3209cfb3da78c36e596f64600adc6af0cc2cfa93712a0c8e8dfb3108855d",
+    "query_ids.json": "e12e2e402761b5a22c501f8c685cf94aad832e0dca73090919ba5a88886986f8"
+  }
+}

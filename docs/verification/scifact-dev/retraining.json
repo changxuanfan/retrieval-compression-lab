@@ -1,0 +1,20 @@
+[
+  {
+    "run": "pca-128d-seed0",
+    "maximum_saved_parameter_difference": 0.0,
+    "fit_config_fingerprint": "b5e1aaae653ebcabd30a670a3fb88df0a36e8a77c37fd2205fbde0dc0955c2f8",
+    "query_transform_reproduces": true
+  },
+  {
+    "run": "rp-128d-seed42",
+    "maximum_saved_parameter_difference": 0.0,
+    "fit_config_fingerprint": "b5e1aaae653ebcabd30a670a3fb88df0a36e8a77c37fd2205fbde0dc0955c2f8",
+    "query_transform_reproduces": true
+  },
+  {
+    "run": "ae-128d-seed42",
+    "maximum_saved_parameter_difference": 0.0,
+    "fit_config_fingerprint": "b5e1aaae653ebcabd30a670a3fb88df0a36e8a77c37fd2205fbde0dc0955c2f8",
+    "query_transform_reproduces": true
+  }
+]

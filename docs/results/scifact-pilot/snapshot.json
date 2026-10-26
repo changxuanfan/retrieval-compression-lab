@@ -1,0 +1,22 @@
+{
+  "source_study": "runs/scifact-pilot/dev/88534189621b",
+  "source_sha256": "96d9d8d477af4604e0631382d3856820e5ee091b64c9feeba7e923b7c863ff05",
+  "scope": "scifact / dev; see original config for dimension/seed/training budget",
+  "files": {
+    "summary.json": "5c63d340975bc0bb5cb18d011e98165c4d006682f0be943be0f1b6ef66c0ad6e",
+    "summary.csv": "44b65d142df09c8f365a27e395bcb240065f357015d03182aba99c4a6bdfdb63",
+    "study.json": "cf1d99763b9a73f60ceae837b7538d4feda573e73f106645a9ad4e67ea707955",
+    "runs.csv": "d31eb236134b0664b2b693fac94bce9f77a98c4b276113eff45dca4e08dc481b",
+    "case-selection.json": "591c71ba10b1280d44e016aecbda1c8aeeb0a61b7cebee3c889b6fdd2c6087d3",
+    "report.md": "ee1d3232402041bdc34ba72b34e417038ffec89e724284e2309dd977108a6fbc",
+    "embedding-manifest.json": "d338f642ff9f47b72e2c07cb8627d36cb08298e33468d8fa14c6f9713152f459",
+    "paired-comparisons.json": "f9eba11687bb6281b08b3661e30575f09d69320d40faa6cd405b718c031355b9",
+    "quality-memory.png": "afffa8f4c728237574b6ea000042b6ffefe620a9f674d64967c9266e0eae8a65",
+    "per-query.json": "1f31e41d2cf649f3adbad22deeb257a546abce897ea15d55dd16e46ff253f4fb",
+    "run-results.json": "0665f22e1c0b57e51ef8049cc1031d99c04bca78c388fa3dbd69b214e8a15761"
+  },
+  "public_export": {
+    "local_paths_removed": true,
+    "numeric_results_changed": false
+  }
+}
